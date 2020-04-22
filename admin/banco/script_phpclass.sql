@@ -1,6 +1,6 @@
-create database dinamico85db;
+create database phpclassdb;
 
-use dinamico85db;
+use phpclassdb;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
