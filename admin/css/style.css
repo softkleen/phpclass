@@ -1,0 +1,168 @@
+*{margin: 0;padding: 0;
+}
+
+
+/* pagina principal*/
+
+#principal {width: 960px;margin: 0 auto;}
+
+#cabecalho{
+    height:125px;
+    padding:5px;
+    background: url(../admin/img/bemvindo.png)repeat-x;
+}  
+#titulo_topo{
+    width: 480px;
+    height: 77px;
+    margin: 15px 0 0 285px;
+    float: left;
+}
+
+#corpo{width: 970px;
+overflow: hidden;}
+
+#esquerdo{
+    width: 191px;
+    float: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ccc;
+    
+    
+}
+#esquerdo ul li{padding-left: 15px;}
+
+#esquerdo li, #esquerdo li a{
+    font: 12px verdana;
+    text-decoration: none;
+    color: #555;    
+}
+
+#esquerdo li a{
+    width: 165px;
+    padding: 4px 0 3px 5px;
+    display: block;
+    border-bottom: dotted 1px #999;
+    background: #f5f5f5;
+    
+}
+
+#sessao{
+    padding: 5px 0 40px 2px;
+    height: 25px;
+    font-size: 15px;
+    font-family: verdana,arial,Helvetuca,sans-serif;color: #0099ff;
+}
+
+#direito{
+width: 760px;
+    float: left;
+    margin: 5px 0 0 5px;
+    border: solid 1px #ccc;
+    
+} 
+
+
+
+
+#esquerdo li a:hover{color: #069;
+    background-color:#e6f5fb;} 
+
+
+/*===========formulario op_login=============*/
+#formulario-login form{
+    width: 220px;
+    margin: 200px auto;
+    border:2px solid #ccc;
+}
+
+
+
+
+
+#formulario-login fieldset{
+    border: 0;
+    padding: 0 15px 10px 15px;
+}
+#formulario-login legend
+{
+    font: 18px Tahoma, Geneva, sans-serif;
+    color: #069;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#formulario-login label{
+    display: block;
+    padding: 3px 0;
+}
+
+#formulario-login span{display: block;
+    font: 16px;
+    color: #069;}
+
+#formulario-login input{padding: 3px;
+                        width: 180px;
+                        border: 1px solid #069;
+                        font: 16px Tahoma, Geneva, sans-serif;
+                        font-weight: bold;
+}
+
+#formulario-login .botao{
+    width:120px;
+    display:block;
+    margin:10px auto;
+    cursor:pointer;
+    background:#069;
+}
+
+/*===========formulario categoria=============*/
+
+#formulario-menor form{
+    width: 350px;
+    margin: 20px auto;
+    border:2px solid #ccc;
+}
+
+#formulario-menor fieldset{
+    border: 0;
+    padding: 0 15px 10px 15px;
+}
+#formulario-menor legend
+{
+    font: 18px Tahoma, Geneva, sans-serif;
+    color: #069;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#formulario-menor label{
+    display: block;
+    padding: 3px 0;
+}
+
+#formulario-menor span{display: block;
+    font: 16px;
+    color: #069;}
+
+#formulario-menor input{padding: 3px;
+                        width: 300px;
+                        border: 1px solid #069;
+                        font: 16px Tahoma, Geneva, sans-serif;
+                        font-weight: bold;
+}
+
+#formulario-menor .botao{
+    width:120px;
+    display:block;
+    margin:10px auto;
+    cursor:pointer;
+    background:#069;
+}
+/* .senac{
+    color: #0099ff;
+    background-color: #069;
+    font-size: 40px;
+}
+p{
+    background: #0099ff
+} */
+

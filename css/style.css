@@ -1,0 +1,116 @@
+*{margin: 0;padding: 0;
+}
+
+bady{font-family: arial;}
+
+#estrutura {width: 960px;margin: 0 auto;}
+
+#estrutura #topo{height: 200px;
+background-image: url(../img/particulas2.jpg);}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none; font-size: 26px;}
+
+#menu ul li { display: inline; }
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+     text-decoration: none;
+}
+
+    /* visual do link */
+a{    background-color:#EDEDED;
+    color: #333;
+   
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+#estrutura #banner{height: 200px;background-color: #f3f3f3;}
+
+#corpo #esquerda{width:135px;height: 480px;float: left;}
+#corpo #centro{width: 690px;height: 480px;float: left;}
+#corpo #direita{width: 135px;height: 480px;float: left;}
+
+#estrutura #rodape{height: 50px;}
+
+#rodape{text-align: center;}
+
+
+/*menu esquerda*/
+.esquerda{list-style: none;}
+.esquerda li {margin-left: 15px; font-size: 16px;}
+.esquerda li a{text-decoration:none;}
+.esquerda h1{font-family: cursive;padding: 0 10px;font-size: 20px;}
+
+
+/* criando banner animado*/
+.banner{
+    
+	width: 940px;
+	height: 600px;
+	border: 10px solid #A3CB38;
+	margin: auto;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image:url("../img/particulas1.jpg");
+	background-size: 100% 100%;
+	animation: banner 10s infinite;
+}
+@keyframes banner{
+	0%, 30%{
+		background-image: url("../img/particulas1.jpg")
+	}
+	31%, 65%{
+		background-image: url("../img/particulas2.jpg")
+	}
+	66%, 100%{
+		background-image: url("../imagens/servicos4.jpg")
+	}
+}
+
+/* criar uma div e colocar a classe banner*/
+
+
+
+/*---------Centro - Posters---------------------*/
+
+/*#conteiner-post{width: 568px;height: 400px;}*/
+#conteiner-posts-recentes{width: 465px;height: 360px;}
+
+#ultimo-post-lancado{float: left;margin: 5px;height: 323px;padding: 10px;
+                     border: solid 1px #ccc;width: 300px; }
+
+
+
+ #ultimo-post-lancado h1{
+
+ 	color: #666;
+ 	font-size: 12px;
+ 	padding: 5px 0 0 0 ;
+ }
+
+  #ultimo-post-lancado a{color: #666;text-decoration: none;}
+  #ultimo-post-lancado a:hover{text-decoration:underline;}
+  #ultimo-post-lancado p{color: #000;font-size: 11px;text-align: justify;margin-top: 5px;}
+/*
+  #caixa-post-recente h3{font-family: Arial, Helvetica, sans-serif;
+                         font-size: 11px;
+                         padding: 3px;}
+
+
+   #caixa-post-recente h3 a{color: #006699;
+                            text-decoration: none;
+                         }                      
+
+#caixa-post-recente h3 a:hover{color: red;
+                            text-decoration: underline;
+                         } 
+          
+  #caixa-post-recente img {float: left;margin-right: 3px;}
+   #caixa-post-recente small{font-size: 10px;}*/
