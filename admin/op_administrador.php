@@ -2,13 +2,14 @@
 
 require_once('../config.php');//mata! Aqui tem corage.
 // Inserir administrador
+
 if (isset($_POST['cadastro'])){
-    $adm = new Administrador(
-        $_POST['nome'],
-        $_POST['email'],
-        $_POST['login'],
-        $_POST['senha']
-    );
+    $adm = new Administrador();
+    $adm->setNome($_POST['nome']);
+    $adm->setEmail($_POST['email']);
+    $adm->setLogin($_POST['login']);
+    $adm->setSenha($_POST['senha']);
+    
     $adm->insert();
     if($adm->getId()!=null){
         header('location:principal.php?link=9&msg=ok');

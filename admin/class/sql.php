@@ -2,7 +2,7 @@
 class Sql extends PDO{
     private $cn;
     public function __construct(){
-        $this->cn = new PDO("mysql:host=127.0.0.1;dbname=dinamico85db","root","");
+        $this->cn = new PDO("mysql:host=127.0.0.1;dbname=phpclassdb","root","");
     }
     // método atribui parametroS para uma query sql
     public function setParams($comando, $parametros = array()){
